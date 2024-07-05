@@ -1,0 +1,528 @@
+body {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #EAD8C0;
+}
+
+/*font-setting*/
+h1,
+h3 {
+    font-family: "Marko One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h4 {
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/*hero css*/
+#hero {
+    padding: 80px;
+    background-color: #F6E6CB;
+    border-radius: 10px;
+}
+
+.hero_container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img_part img {
+    height: 480px;
+    width: 300px;
+
+}
+
+.img_part {
+    width: 42%;
+    padding: 20px;
+    text-align: right;
+}
+
+.txt_part {
+    width: 58%;
+    padding: 20px;
+    text-align: left;
+}
+
+.txt_part h1 {
+    font-size: 2.5rem;
+    color: #C73659;
+
+}
+
+.txt_part h3 {
+    font-size: 1.5rem;
+
+}
+
+.txt_part h4 {
+    font-size: 1.3rem;
+
+}
+
+.txt_part p {
+    font-size: 1rem;
+
+}
+
+.button {
+    background-color: #D24545;
+    border: none;
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.button:hover {
+    opacity: 2
+}
+
+/*hero css end*/
+
+/*projects css*/
+#projects {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.h_line {
+    margin: 30px;
+}
+
+.project_heading h1 {
+    font-size: 2.5rem;
+    color: #C73659;
+    text-align: center;
+}
+
+.project_heading p {
+    font-size: 1rem;
+}
+
+.project_card {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border-radius: 30px;
+    padding: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.project_txt {
+    width: 24rem;
+}
+
+
+.card img {
+    width: 24rem;
+    height: 20rem;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.project_button {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/*projects css end*/
+
+/*About me css*/
+#about_me {
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #F6E6CB;
+    border-radius: 10px;
+
+}
+
+.about_container {
+    display: flex;
+    gap: 2rem;
+    padding: 0.5rem;
+}
+
+.about_img img {
+    width: 24rem;
+    height: 33rem;
+}
+
+.about_img {
+    width: 42%;
+    text-align: right;
+}
+
+.about_txt {
+    display: flex;
+    flex-direction: column;
+    width: 58%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+    justify-content: center;
+}
+
+
+.about_container h1 {
+    font-size: 2.5rem;
+    color: #C73659;
+}
+
+.about_container p {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 70%;
+}
+
+/*About me css end*/
+
+/*Contact me css*/
+#contact {
+    background-image: url("images/pawel-czerwinski-dgJT71cXlC4-unsplash.jpg");
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 10px;
+}
+
+.contact_btn {
+    background-color: #D24545;
+    border: none;
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.contact_btn:hover {
+    opacity: 2
+}
+
+
+.email_me {
+    width: 50%;
+}
+
+.connect_me {
+    width: 50%;
+}
+
+.contact_container h2 {
+    font-size: 2rem;
+    color: #FCF8F3;
+    font-family: "Marko One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contact_container {
+    display: flex;
+    gap: 3rem;
+    padding-bottom: 0.5rem;
+}
+
+.inp_form {
+    width: 25rem;
+    height: 10rem;
+    resize: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    border-radius: 15px;
+    outline-color: #C73659;
+    padding: 1rem;
+}
+
+.connect_me i {
+    font-size: 3rem;
+    color: #FCF8F3;
+    padding: 0.5rem;
+    margin-top: 2rem;
+}
+
+/*Contact me css ends*/
+
+/*Footer css */
+.footer_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_text i {
+    font-weight: 100;
+}
+
+/*Footer css ends*/
+
+@media (max-width:768px) {
+    #hero {
+        padding: 2rem;
+    }
+
+    .hero_container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .img_part img {
+        height: 30rem;
+        width: 18rem;
+
+    }
+
+    .img_part {
+        text-align: center;
+        width: 100%;
+
+
+    }
+
+    .txt_part {
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .txt_part h1 {
+        font-size: 1.5rem;
+        color: #C73659;
+
+    }
+
+    .txt_part h3 {
+        font-size: 1rem;
+
+    }
+
+    .txt_part h4 {
+        font-size: 0.9rem;
+
+    }
+
+    .txt_part p {
+        font-size: 1rem;
+
+    }
+
+    .button {
+        border-radius: 10px;
+        padding: 8px 24px;
+        text-align: center;
+        font-size: 8px;
+        margin: 4px 2px;
+    }
+
+    /*projects css*/
+    #projects {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .h_line {
+        margin: 20px;
+    }
+
+    .project_heading h1 {
+        font-size: 1.5rem;
+    }
+
+    .project_heading p {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .project_card {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        flex-wrap: wrap;
+        width: 21rem;
+
+    }
+
+    .card {
+        background-color: white;
+        border-radius: 30px;
+        padding: 0.5rem;
+    }
+
+    .project_txt {
+        width: 15rem;
+    }
+
+
+
+
+    .project_button {
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    /*projects css end*/
+
+    /*About me css*/
+    #about_me {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about_container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 0.5rem;
+    }
+
+    .about_img img {
+        width: 21rem;
+        height: 28rem;
+    }
+
+    .about_img {
+        width: 80%;
+        text-align: center;
+    }
+
+    .about_txt {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    .about_container h1 {
+        font-size: 1.5rem;
+        width: 21rem;
+
+    }
+
+    .about_container p {
+        font-size: 1rem;
+        font-weight: 400;
+        width: 100%;
+    }
+
+    /*About me css end*/
+
+    .inp_form {
+        width: 10rem;
+        height: 10rem;
+        resize: none;
+    }
+
+    /*Contact me css*/
+    #contact {
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 10px;
+    }
+
+    .contact_container {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0.5rem;
+    }
+
+    .contact_btn {
+        border-radius: 10px;
+        padding: 8px 24px;
+        font-size: 8px;
+        margin: 4px 2px;
+    }
+
+    .email_me {
+        width: 100%;
+    }
+
+    .connect_me {
+        width: 100%;
+    }
+
+    .contact_container h2 {
+        font-size: 1rem;
+    }
+
+    .inp_form {
+        width: 21rem;
+        height: 5rem;
+        border-radius: 8px;
+        outline-color: #C73659;
+        padding: 0.5rem;
+    }
+
+    .connect_me i {
+        font-size: 1.5rem;
+        color: #FCF8F3;
+        padding: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    /*Contact me css ends*/
+
+}
+
+
+@media (min-width:1440px) {
+    .project_txt {
+        width: 24rem;
+    }
+
+
+    .card img {
+        width: 24rem;
+        height: 20rem;
+    }
+}
+
+/*macbook air*/ /*2560**1600*/
+
+ 
